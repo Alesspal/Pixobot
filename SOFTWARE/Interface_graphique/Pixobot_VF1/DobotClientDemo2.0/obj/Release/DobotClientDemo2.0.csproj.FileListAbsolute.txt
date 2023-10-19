@@ -1,0 +1,34 @@
+D:\Git\DobotDemoForCSharp\DobotClientDemo2.0\bin\Release\DobotClientDemo.exe
+D:\Git\DobotDemoForCSharp\DobotClientDemo2.0\bin\Release\DobotClientDemo.pdb
+D:\Git\DobotDemoForCSharp\DobotClientDemo2.0\obj\Release\DobotClientDemo2.0.csprojResolveAssemblyReference.cache
+D:\Git\DobotDemoForCSharp\DobotClientDemo2.0\obj\Release\MainWindow.baml
+D:\Git\DobotDemoForCSharp\DobotClientDemo2.0\obj\Release\MainWindow.g.cs
+D:\Git\DobotDemoForCSharp\DobotClientDemo2.0\obj\Release\App.g.cs
+D:\Git\DobotDemoForCSharp\DobotClientDemo2.0\obj\Release\DobotClientDemo_MarkupCompile.cache
+D:\Git\DobotDemoForCSharp\DobotClientDemo2.0\obj\Release\DobotClientDemo.g.resources
+D:\Git\DobotDemoForCSharp\DobotClientDemo2.0\obj\Release\DobotClientDemo.Properties.Resources.resources
+D:\Git\DobotDemoForCSharp\DobotClientDemo2.0\obj\Release\DobotClientDemo2.0.csproj.GenerateResource.Cache
+D:\Git\DobotDemoForCSharp\DobotClientDemo2.0\obj\Release\DobotClientDemo.exe
+D:\Git\DobotDemoForCSharp\DobotClientDemo2.0\obj\Release\DobotClientDemo.pdb
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\bin\Release\DobotClientDemo.exe.config
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\bin\Release\DobotClientDemo.exe
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\bin\Release\TermiZordLib.dll
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\obj\Release\DobotClientDemo2.0.csproj.AssemblyReference.cache
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\obj\Release\MainWindow.baml
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\obj\Release\Accueil.g.cs
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\obj\Release\Config.g.cs
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\obj\Release\MainWindow.g.cs
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\obj\Release\App.g.cs
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\obj\Release\DobotClientDemo_MarkupCompile.cache
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\obj\Release\DobotClientDemo_MarkupCompile.lref
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\obj\Release\Accueil.baml
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\obj\Release\Config.baml
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\obj\Release\DobotClientDemo.g.resources
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\obj\Release\DobotClientDemo.Component1.resources
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\obj\Release\DobotClientDemo.Properties.Resources.resources
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\obj\Release\DobotClientDemo.Properties.tzdRessources.resources
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\obj\Release\DobotClientDemo2.0.csproj.GenerateResource.cache
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\obj\Release\DobotClientDemo2.0.csproj.CoreCompileInputs.cache
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\obj\Release\DobotClientDemo2.0.csproj.CopyComplete
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\obj\Release\DobotClientDemo.exe
+D:\AA prog\Visual_Studio\AA TPI\Pixobot_V3u\DobotClientDemo2.0\obj\Release\DobotClientDemo.pdb

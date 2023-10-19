@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DobotAPI.Dobot">
+    <Position X="2.5" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="DobotAPI.Dobot.BeltPort" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClassDobot\Dobot.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="DobotAPI.Dobot.GPort" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClassDobot\Dobot.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="DobotAPI.Dobot.ArmModeCmd" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClassDobot\Dobot.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="DobotAPI.Dobot.Axe" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClassDobot\Dobot.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="DobotAPI.Dobot.Commande" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClassDobot\Dobot.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>RcAQBjIQBIEgeC5BUMYgQIBoxApQCCFAdCaBKgFYDAA=</HashCode>
+      <FileName>ClassDobot\Dobot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjDobot.ConveyorBelt">
+    <Position X="10.5" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ObjDobot.ConveyorBelt.StepperPort" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClassDobot\ConveyorBelt.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABAAAAACACQIAAAIBQEYABABCCgAtAAAQADIIAAAgAA=</HashCode>
+      <FileName>ClassDobot\ConveyorBelt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjDobot.FileDobot">
+    <Position X="16.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAIAAEAAgAAAAAAAAAA=</HashCode>
+      <FileName>ClassDobot\FileDobot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjDobot.Hand">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAEAAAAEAAAAAAAAAAAAgBAAAAA=</HashCode>
+      <FileName>ClassDobot\Hand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjDobot.SuctionCup">
+    <Position X="6.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAgBAAAAA=</HashCode>
+      <FileName>ClassDobot\Hand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjDobot.Gripper">
+    <Position X="8.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAgBAAAAA=</HashCode>
+      <FileName>ClassDobot\Hand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjDobot.Sensor">
+    <Position X="13.5" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ObjDobot.Sensor.GPort" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClassDobot\Sensor.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AFAKAAAAAAAAAAAAAAEAACAUCAAAAAAAQAAAAAAACAA=</HashCode>
+      <FileName>ClassDobot\Sensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjDobot.ColorSensor" Collapsed="true">
+    <Position X="12.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>ClassDobot\Sensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjDobot.LaserSensor" Collapsed="true">
+    <Position X="14.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>ClassDobot\Sensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjDobot.Arm">
+    <Position X="4.5" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ObjDobot.Arm.Mode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClassDobot\Arm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAADUAAEA8BAAgIABAAQAACEQCgJAAAEAGAEQggEaAE=</HashCode>
+      <FileName>ClassDobot\Arm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
