@@ -1,0 +1,111 @@
+// Exemples de méthodes de traitement pour l'objet String et conversion en tableau (chaîne de car.)
+// ------------------------------------------------------------------------------------------------
+// int lengthCommand = strCommand.length();        // Pour connaître le nombre de car.
+// strCommand.toLowerCase();                       // Transforme tous les car. en minuscules 
+// strCommand.toUpperCase();                       // Transforme tous les car. en majuscules 
+// char arrayCommand[30 + 1];                      // Déclare un tableau pour une commande de 30 car. + '\0'
+// strCommand.toCharArray(arrayCommand, 30 + 1);   // Copie le String dans le tableau (converti le String en char[])
+// char txt[20 + 1];                               // Déclare un tableau pour une chaîne de 20 car.
+// sprintf(txt, "Nombre : %4d", iNombre);          // Rempli le tableau avec du texte et un nombre formatté
+// String strTxt = String(txt);                    // Converti le tableau en String
+
+
+D_Out do_Led_Arduino{ 13, 1, D_Out::state::OFF };
+
+// ------------------------------------------------------------------------------------------------
+// Dans cet exemple, on reçoit les commandes suivantes
+// - "Led on"       => on allume la led Arduino
+// - "Led off"      =>    éteint
+// - "x2 value"     value est un nombre compris entre 10 et 1000
+//                  => on retourne la valeur x 2 (demo pour convertir du texte en nombre)
+// Une commande aura donc au maximum 7 + 1 car., mais le PC pourra envoyer plus de car.
+// Remarque :       Les méthodes String.toInt(), atoi, etc. ne gère pas les erreurs de conversions
+//                  On utilise donc sscanf
+// 
+// Gestion globale des erreurs, on ne différencie pas les erreurs (>7, x2, etc.)
+// ------------------------------------------------------------------------------------------------
+void ProcessingCommand(String strCommand) {
+    char txt[21];           // Pour une réponse de 20 car. (dans notre cas 15)
+    bool error;             // Indique si la commande n'est pas autorisée
+    int iNombre;            // Pour mémoriser value
+    String tmp;
+
+    error = true;
+    if (strCommand == "Led on") {
+        do_Led_Arduino.setOn();
+        error = false;
+    }
+    else if (strCommand == "Led off") {
+        do_Led_Arduino.setOff();
+        error = false;
+    }
+    else {
+        // Traiter la commande "x2 value"
+        // Utilisation des 2 surcharges de substring (si vous ne comprenez pas le vocabulaire, révisez !!)
+
+        // Test si commence par "x2 "
+        // Extraire les 3 premières lettres de la commande
+        // ATTENTION, le dernier indice représente la position du car. qui ne doit plus être pris
+        // donc 3 (et pas 2 pour le dernier car. pris !)
+        if (strCommand.substring(0, 3) == "x2 ") {
+            // Extraire value qui commence à l'indice 3 (4ème car.)
+            tmp = strCommand.substring(3);
+
+            // 1) Convertir en int sans test d'erreur de value
+            // --------------------------------------------------------------------------------------------
+            // iNombre = tmp.toInt();
+            // error = false;
+
+            // 2) Convertir en int test  des erreurs de value
+            // --------------------------------------------------------------------------------------------
+            // ATTENTION, ne gère pas les dépassements ni les mauvais car.
+            // Par exemple :  "32767"   OK
+            //                "32668"   KO (-32768)
+            //                "-32768"  OK
+            //                "-32769"  KO (32767)
+            //                "10a0"    OK (donne le début, ici 10)
+
+            // Donc si on veut gérer les erreurs simplement
+            // - Dépassement => se limiter à 4 car. (5 si le 1er est -)
+            // - Tester chaque car. si entre '0' et '9'
+
+            // Ici, test de 10 à 1000, donc positif
+            if (tmp.length() <= 4) {
+                // Ici si pas d'erreur, mais error = true
+
+                // Pour le test suivant on part du principe que error = false
+                // et si un/plusieurs car. sont faux, alors error = true
+                error = false;
+                for (int i = 0; i < tmp.length(); i++) {
+                    // On peut lire les car. d'un String comme une chaîne de car. (tableau)
+                    // (mais pas écrire)
+                    // Et ici on teste tous les car, même si le 1er ewst déjà faux
+                    if (!isDigit(tmp[i])) {
+                        error = true;
+                    }
+                }
+                if (!error) {
+                    // max 4 car. & seulement chiffres => conversion possible sans erreur
+                    iNombre = tmp.toInt();
+
+                    // Dernier test (limite 10-1000)
+                    error = true;
+                    if (iNombre >= 10 && iNombre <= 1000) {
+                        error = false;
+                    }
+                }
+            }
+            if (!error) {
+                // Pas d'erreur, on calcule
+                sprintf(txt, "%d x 2 = %d", iNombre, 2 * iNombre);
+                scr.print(String(txt));     // Conversion du tableau en String et envoi par l'objet scr
+            }                               // Remarque : scr.print(txt); aussi ok
+
+        }
+    }
+
+    if (error) {
+        scr.print("Cmd error");
+    }
+
+}
