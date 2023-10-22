@@ -135,7 +135,7 @@ Il y a deux zones : la première affiche les blocs scannés, et la seconde montr
 
 ## Conclusion
 
-Après avoir traversé chaque étape et composant de ce projet, il est clair que celui-ci représente une combinaison de différentes compétences, allant de la mécanique à la programmation en passant par l'interaction homme-machine. 
+C'est un projet complet qui représente une combinaison de différentes compétences, allant de la mécanique à la programmation en passant par l'interaction homme-machine. 
 
 Ce sera tout pour ce Readme, j’espère que ça vous a plu et je vous remercie d’avoir lu jusqu’au bout. Comme mentionné au tout début, si vous souhaitez obtenir des informations plus précises, je vous invite à consulter mon rapport.
 
