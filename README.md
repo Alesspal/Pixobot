@@ -18,21 +18,21 @@ Le but de ce projet est de charger un train à l’aide d’un bras robotique. L
 
 Ce projet a été réalisé pour mon travail pratique individuel de fin de CFC (Certificat fédéral de capacité) d’électronicien en avril 2022. Je précise que ce README ne vous donnera pas toutes les explications pour le mettre en œuvre parfaitement. Je n’expliquerai pas toutes les choses en détail et ne parlerai pas de code. Il sert à montrer un de mes premiers projets assez concrets que j’ai pu réaliser pendant mes études. Je souligne aussi que je débutais en code et qu’il n’est pas démonstratif de mon niveau actuel. Si vous voulez des explications bien plus précises, consultez mon rapport « Rapport TPI 2022 ».
 
-## Principe de fonctionnement
+### Principe de fonctionnement
 
 - Un signal externe, ici simulé par un interrupteur connecté à l’Arduino, indique que le train est en position pour être chargé.
 - La caméra récupère les coordonnées des objets présents dans son champ de vision en fonction de leurs signatures configurées dans l’application PixyMon. Les objets sont déposés manuellement sur le plan de travail.
 - L’application établit une liste des objets trouvés, et, indique s’ils sont dans la zone de stockage configurée dans l’application PixoBot. Si oui, on peut alors sélectionner le ou les objets désirés et les charger de manière autonome sur le train.
 
-## Description du travail
+### Description du travail
 
-### 1. Caméra et Arduino
+#### 1. Caméra et Arduino
 
 - Utilisation d’une caméra connectée à un Arduino MEGA par le bus SPI et utilisation de la classe dédiée Pixy. Celle-ci permet de récupérer la liste des objets détectés (signature, coordonnées, taille, etc.).
 - Les signatures seront définies à l’aide de l’application PixyMon. Les objets sont identifiés selon leurs couleurs et formes. Deux objets de même couleur mais de formes différentes peuvent être différenciés.
 - L’Arduino communique avec le PC en mode COMMAND via l’UART1. Un câble UART to USB sera utilisé.
 
-### 2. Bras robotique Dobot Magician et PC
+#### 2. Bras robotique Dobot Magician et PC
 
 Le bras robotique Dobot Magician est connecté au PC. Il est contrôlé par l’API fournie par Dobot. L’application réalisée en langage C# (Pixobot) permet :
 - De connecter la caméra et le bras robotique.
@@ -42,7 +42,7 @@ Le bras robotique Dobot Magician est connecté au PC. Il est contrôlé par l’
 - De sélectionner les objets et l’ordre dans lequel on désire les charger sur le train.
 - De manipuler le bras robotique afin de charger ces objets sur demande de l’utilisateur sur le train, s’il est présent (clic d’un bouton). L’interrogation du train se fait au moment du clic.
 
-## Exigences particulières
+### Exigences particulières
 
 - Pour simplifier, le sens de la caméra et du train sont fixes, et ceux-ci sont placés parallèlement au système d’axes du bras.
 - Les objets et le train seront placés dans le rayon d’action du bras. La documentation indiquera les limites à prendre en compte afin d’être dessinées sur le plan de travail, mais elles ne seront pas calculées par l’application.
@@ -51,7 +51,7 @@ Le bras robotique Dobot Magician est connecté au PC. Il est contrôlé par l’
 - Tous les objets ont la même hauteur.
 - Dans les limites du possible, une tolérance de +/- 2 mm est demandée pour la précision du bras à la prise des objets.
 
-## Informations complémentaires
+### Informations complémentaires
 
 Le projet sera réalisé avec le matériel, logiciel et documentation déjà utilisés partiellement en théorie/atelier, en particulier :
 - Visual Studio 2019 et Visual Micro
