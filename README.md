@@ -4,10 +4,23 @@ Ce projet vise à charger des cubes colorés sur un train. Utilisant une caméra
 
 ## Sommaire
 
+- [Pixobot](#pixobot)
 - [Présentation du projet](#présentation-du-projet)
+  - [Principe de fonctionnement](#principe-de-fonctionnement)
+  - [Description du travail](#description-du-travail)
+    - [1. Caméra et Arduino](#1-caméra-et-arduino)
+    - [2. Bras robotique Dobot Magician et PC](#2-bras-robotique-dobot-magician-et-pc)
+  - [Exigences particulières](#exigences-particulières)
+  - [Informations complémentaires](#informations-complémentaires)
 - [Hardware](#hardware)
+  - [Schéma bloc](#schéma-bloc)
+  - [Véroboard](#véroboard)
+  - [Résultat du schéma bloc](#résultat-du-schéma-bloc)
 - [Châssis](#châssis)
 - [Interface graphique](#interface-graphique)
+  - [Pages de l'interface](#pages-de-linterface)
+    - [Interface de la page Config](#interface-de-la-page-config)
+    - [Interface de la page Homepage](#interface-de-la-page-homepage)
 - [Conclusion](#conclusion)
 
 ---
