@@ -79,15 +79,15 @@ Le projet sera réalisé avec le matériel, logiciel et documentation déjà uti
 
 Commençons par parler du hardware. Comme dit plus haut, nous avons un bouton qui va simuler l’état du train et un câble UART qui va gérer la communication de l’Arduino avec un ordinateur. J’ai fait un schéma bloc pour représenter comment vont être branchés les appareils entre eux et un Véroboard. Le vérobord va être imbriqué sur la plaque Arduino MEGA click SHIELD.
 
-### Schéma bloc :
+### Schéma bloc
 
 ![Pasted Graphic](https://github.com/Alesspal/Pixobot/assets/119937254/f8b2335e-762e-4375-89f6-a700e8bbd0c0)
 
-### Véroboard :
+### Véroboard
 
 ![Pasted Graphic 1](https://github.com/Alesspal/Pixobot/assets/119937254/47cf8f9b-7cf1-459f-88b5-9bcc0eea6d10)
 
-### Résultat du schéma bloc :
+### Résultat du schéma bloc
 
 ![Pasted Graphic 2](https://github.com/Alesspal/Pixobot/assets/119937254/0bb25603-2cad-45b6-b79d-4206fa28400d)
 
