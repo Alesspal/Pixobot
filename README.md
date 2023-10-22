@@ -68,7 +68,7 @@ Commençons par parler du hardware. Comme dit plus haut, nous avons un bouton qu
 
 ### Schéma bloc :
 
-(![Pasted Graphic](https://github.com/Alesspal/Pixobot/assets/119937254/f8b2335e-762e-4375-89f6-a700e8bbd0c0))
+![Pasted Graphic](https://github.com/Alesspal/Pixobot/assets/119937254/f8b2335e-762e-4375-89f6-a700e8bbd0c0)
 
 ### Véroboard :
 
