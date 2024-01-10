@@ -1,5 +1,4 @@
 # Pixobot
-![projet2](https://github.com/Alesspal/Pixobot/assets/119937254/9f2da3fc-5db9-40e9-a066-33c37e6019b2)
 
 Dans le cadre de l'obtention de mon CFC en électronique, j'ai conçu et réalisé un projet qui consiste à charger des cubes colorés sur un train, utilisant une caméra Pixy2 pour la détection, un bras robotique Dobot Magician pour la manipulation, et une interface utilisateur pour le contrôle. Le système entier est orchestré via un Arduino MEGA.
 
@@ -115,7 +114,7 @@ En haut de l’interface graphique, il y’a deux barres d’actions. Celle tout
 
 On y retrouve des boutons importants comme « Connect » pour connecter le bras ou « Emergency stop » dans le cas où il faut arrêter le bras robotique d'urgence. Les deux autres boutons servent au bon fonctionnement du Dobot Magician.
 
-![projet2](https://github.com/Alesspal/Pixobot/assets/119937254/d7358138-ac76-49d0-9619-1254e2daa054)
+![projet2](https://github.com/Alesspal/Pixobot/assets/119937254/9f2da3fc-5db9-40e9-a066-33c37e6019b2)
 
 De même pour la caméra, on y retrouve un bouton « Connect » avec des listes où l'on peut choisir le port série voulu et la vitesse de transmission.
 
