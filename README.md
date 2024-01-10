@@ -103,6 +103,7 @@ Sur le côté arrière de la base, il y a une deuxième barre. Ces deux barres v
 
 Voici un aperçu visuel de toute la structure :
 
+
 ![Pasted Graphic 5](https://github.com/Alesspal/Pixobot/assets/119937254/3031eced-6da6-414b-9caa-951f5f5b6cad)
 
 ## Interface graphique
@@ -113,7 +114,7 @@ En haut de l’interface graphique, il y’a deux barres d’actions. Celle tout
 
 On y retrouve des boutons importants comme « Connect » pour connecter le bras ou « Emergency stop » dans le cas où il faut arrêter le bras robotique d'urgence. Les deux autres boutons servent au bon fonctionnement du Dobot Magician.
 
-![Pasted Graphic 7](https://github.com/Alesspal/Pixobot/assets/119937254/3fed634e-5095-4dc4-8257-ce16728d8b78)
+![projet2](https://github.com/Alesspal/Pixobot/assets/119937254/49ab6934-26cc-444e-ad2c-5efc9c41dac0)
 
 De même pour la caméra, on y retrouve un bouton « Connect » avec des listes où l'on peut choisir le port série voulu et la vitesse de transmission.
 
