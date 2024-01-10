@@ -113,7 +113,7 @@ En haut de l’interface graphique, il y’a deux barres d’actions. Celle tout
 
 On y retrouve des boutons importants comme « Connect » pour connecter le bras ou « Emergency stop » dans le cas où il faut arrêter le bras robotique d'urgence. Les deux autres boutons servent au bon fonctionnement du Dobot Magician.
 
-
+![barre_cam](https://github.com/Alesspal/Pixobot/assets/119937254/909cd16c-2073-442c-8547-9e1f86911510)
 
 De même pour la caméra, on y retrouve un bouton « Connect » avec des listes où l'on peut choisir le port série voulu et la vitesse de transmission.
 
