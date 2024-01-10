@@ -1,4 +1,5 @@
 # Pixobot
+![projet2](https://github.com/Alesspal/Pixobot/assets/119937254/9f2da3fc-5db9-40e9-a066-33c37e6019b2)
 
 Dans le cadre de l'obtention de mon CFC en électronique, j'ai conçu et réalisé un projet qui consiste à charger des cubes colorés sur un train, utilisant une caméra Pixy2 pour la détection, un bras robotique Dobot Magician pour la manipulation, et une interface utilisateur pour le contrôle. Le système entier est orchestré via un Arduino MEGA.
 
