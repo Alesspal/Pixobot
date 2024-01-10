@@ -1,6 +1,6 @@
 # Pixobot
 
-Ce projet vise à charger des cubes colorés sur un train. Utilisant une caméra Pixy2 pour la détection, un bras robotique Dobot Magician pour la manipulation, et une interface utilisateur pour le contrôle, le système entier est orchestré via un Arduino MEGA.
+Dans le cadre de l'obtention de mon CFC en électronique, j'ai conçu et réalisé un projet qui consiste à charger des cubes colorés sur un train, utilisant une caméra Pixy2 pour la détection, un bras robotique Dobot Magician pour la manipulation, et une interface utilisateur pour le contrôle. Le système entier est orchestré via un Arduino MEGA.
 
 ## Sommaire
 
